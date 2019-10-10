@@ -1,5 +1,12 @@
 A [Giter8][g8] template for simple scala project!
 
+
+## Usage
+```
+sbt new counter2015/scala-seed.g8
+```
+
+
 Template license
 ----------------
 Written in 2019 by counter2015 <voidcounter@gmail.com>

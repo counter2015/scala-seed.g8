@@ -1,5 +1,7 @@
+import ConfigInstance.config
+
 object Hello {
-  lazy val greeting: String = "hello"
+  lazy val greeting: String = config.getString("greeting.words")
   def main(args: Array[String]): Unit = {
     println(greeting)
   }
