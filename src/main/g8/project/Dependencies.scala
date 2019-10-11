@@ -11,6 +11,6 @@ object Dependencies {
   val logback              = "ch.qos.logback"             %  "logback-classic"         % logbackVersion
   val scalaLogging         = "com.typesafe.scala-logging" %% "scala-logging"           % scalaLoggingVersion
   val scalaTest            = "org.scalatest"              %% "scalatest"               % scalaTestVesrion         % Test
-  val typesafeConfig       = "com.typesafe"               % "config"                   % typesafeConfigVersion
+  val typesafeConfig       = "com.typesafe"               %  "config"                  % typesafeConfigVersion
 
 }
