@@ -14,6 +14,12 @@ lazy val root = (project in file(".")).
       scalaLogging,
       scalaTest,
       typesafeConfig
+    ),
+    scalacOptions ++= Seq(
+      "-deprecation", // Emit warning and location for usages of deprecated APIs.
+      "-encoding", "utf-8", // Specify character encoding used by source files.
+      "-explaintypes", // Explain type errors in more detail.
+      "-feature", // Emit warning and location for usages of features that should be imported explicitly.
     )
   )
 
@@ -27,3 +33,4 @@ lazy val assemblySettings = Seq(
       oldStrategy(x)
   }
 )
+
