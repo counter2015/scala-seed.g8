@@ -20,6 +20,7 @@ lazy val root = (project in file(".")).
       "-encoding", "utf-8", // Specify character encoding used by source files.
       "-explaintypes", // Explain type errors in more detail.
       "-feature", // Emit warning and location for usages of features that should be imported explicitly.
+      "-language:implicitConversions", // Using implicit conversions
     )
   )
 
