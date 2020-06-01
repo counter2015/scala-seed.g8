@@ -15,8 +15,8 @@ It includes following default library dependency
 - [typesafe config](https://github.com/lightbend/config): config
 
 The scala tools and version are:
-- Scala 2.12.8
-- sbt 1.3.2
+- Scala 2.13.2
+- sbt 1.3.10
 - [sbt-assembly](https://github.com/sbt/sbt-assembly) 0.14.10
 - g8 0.12.0
 
