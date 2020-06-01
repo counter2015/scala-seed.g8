@@ -4,8 +4,8 @@ object Dependencies {
   // Versions
   val logbackVersion                    =             "1.2.3"
   val scalaLoggingVersion               =             "3.9.2"
-  val scalaTestVesrion                  =             "3.0.8"
-  val typesafeConfigVersion             =             "1.3.4"
+  val scalaTestVesrion                  =             "3.1.2"
+  val typesafeConfigVersion             =             "1.4.0"
 
   // Libraries
   val logback              = "ch.qos.logback"             %  "logback-classic"         % logbackVersion
